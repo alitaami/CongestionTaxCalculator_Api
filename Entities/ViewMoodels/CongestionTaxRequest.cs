@@ -1,7 +1,7 @@
 ﻿using CongestionTAxCalculator_Project.Common.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace CongestionTAxCalculator_Project.Data.Entities.ViewMoodels
+namespace Entities.ViewMoodels
 {
     public class CongestionTaxRequest
     {

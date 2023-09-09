@@ -1,4 +1,4 @@
-﻿namespace CongestionTAxCalculator_Project.Data.Entities
+﻿namespace Entities.Models
 {
     public class ExemptDaysOfWeek
     {

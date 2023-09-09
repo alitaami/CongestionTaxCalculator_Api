@@ -1,8 +1,8 @@
 ﻿using CongestionTaxCalculator_Project.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using CongestionTAxCalculator_Project.Data.Entities.ViewMoodels;
 using Common.Utilities.Resources;
 using Entities.Base;
+using Entities.ViewMoodels;
 
 namespace CongestionTAxCalculator_Project.Controllers
 {

@@ -1,9 +1,9 @@
 ﻿using Common.Utilities.Resources;
-using CongestionTAxCalculator_Project.Data.Entities;
 using CongestionTAxCalculator_Project.DB.CongestionTaxCalculatorApp.Data;
 using CongestionTAxCalculator_Project.DB.Entities;
 using CongestionTAxCalculator_Project.Services.Interfaces;
 using Entities.Base;
+using Entities.Models;
 
 namespace CongestionTAxCalculator_Project.Services
 {

@@ -1,4 +1,4 @@
-﻿using CongestionTAxCalculator_Project.Data.Entities;
+﻿ using Entities.Models;
 
 namespace CongestionTAxCalculator_Project.DB.Entities
 {

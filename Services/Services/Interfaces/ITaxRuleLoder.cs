@@ -1,5 +1,5 @@
-﻿using CongestionTAxCalculator_Project.Data.Entities;
-using CongestionTAxCalculator_Project.DB.Entities;
+﻿using CongestionTAxCalculator_Project.DB.Entities;
+using Entities.Models;
 
 namespace CongestionTAxCalculator_Project.Services.Interfaces
 {

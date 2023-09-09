@@ -1,6 +1,6 @@
 ﻿using CongestionTAxCalculator_Project.Common.Enums;
 
-namespace CongestionTAxCalculator_Project.Data.Entities
+namespace Entities.Models
 {
     public class ExemptVehicleType
     {

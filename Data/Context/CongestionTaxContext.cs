@@ -1,8 +1,7 @@
 ﻿using CongestionTAxCalculator_Project.DB.Entities;
 using CongestionTAxCalculator_Project.Common.Enums;
-using CongestionTAxCalculator_Project.Data.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
+using Entities.Models;
 
 namespace CongestionTAxCalculator_Project.DB
 {
