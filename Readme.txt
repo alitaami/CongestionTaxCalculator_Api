@@ -1,3 +1,8 @@
+First you should add-migration and update-database to create a Db in your local SqlServer, then it will seed some data to tables by fluent api. 
+-------
+You can use these datas as an input for 'CalculateCongestionTax' method =>
+
+** Hint **
  VehicleType enum :
 
         Car=0,
@@ -8,6 +13,7 @@
         Foreign=5,
         Military=6
 ---------------- 
+some examples for test the method =>
 {
     "VehicleType": 1,
     "CityName": "Gothenburg",
@@ -18,7 +24,6 @@
     ]
  }
 
-
  {
     "VehicleType": 1,
     "CityName": "Gothenburg",
@@ -28,7 +33,6 @@
       "2023-08-21T17:30:00"
     ]
  }
-
 
  {
     "VehicleType": 3,
@@ -40,7 +44,6 @@
     ]
  }
 
-
  {
     "VehicleType": 2,
     "CityName": "Stockholm",
@@ -50,7 +53,6 @@
       "2023-08-21T17:30:00"
     ]
  }
-
 
  {
     "VehicleType": 1,
