@@ -7,6 +7,7 @@ using Entities.Base;
 
 namespace CongestionTAxCalculator_Project.Services
 {
+    // Service class for load specific datas and rules for each City
     public class TaxRuleLoder : ITaxRuleLoder
     {
         private readonly CongestionTaxContext _db;
@@ -15,7 +16,7 @@ namespace CongestionTAxCalculator_Project.Services
             _db = db;
         }
 
-        public async Task<List<ExemptDaysOfWeek>> LoadDaysOfWeekForCity(string cityName)
+        public async Task<List<ExemptDaysOfWeek>> LoadExemptionDaysOfWeekForCity(string cityName)
         {
             try
             {

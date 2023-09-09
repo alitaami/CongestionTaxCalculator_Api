@@ -122,7 +122,7 @@ namespace CongestionTaxCalculator_Project.Services
         {
             try
             {
-                var days = await _load.LoadDaysOfWeekForCity(cityName);
+                var days = await _load.LoadExemptionDaysOfWeekForCity(cityName);
                 var dates = await _load.LoadExemptionDatesForCity(cityName);
 
                 if (days.Any(x => x.DaysOfWeek.Equals(date.DayOfWeek)))
