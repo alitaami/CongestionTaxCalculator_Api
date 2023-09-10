@@ -4,14 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
-});
 
 // Use your custom extensions
-builder.Services.AddCustomServices();
-builder.Services.AddCustomDbContext("Data Source =.; Initial Catalog=CongestionDb; Integrated Security=true;Trust Server Certificate=true;");
+builder.Services
+       .AddCustomServicesAndDbContextAndSwagger("Data Source =.; Initial Catalog=CongestionDb; Integrated Security=true;Trust Server Certificate=true;");
 
 var app = builder.Build();
 

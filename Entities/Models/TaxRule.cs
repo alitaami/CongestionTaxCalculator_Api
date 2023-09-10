@@ -1,4 +1,4 @@
-﻿ using Entities.Models;
+﻿using Entities.Models;
 
 namespace CongestionTAxCalculator_Project.DB.Entities
 {
@@ -9,11 +9,11 @@ namespace CongestionTAxCalculator_Project.DB.Entities
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        // relations
+        #region Relations
         public ICollection<ExemptDaysOfWeek> ExemptDaysOfWeek { get; set; } = new List<ExemptDaysOfWeek>();
         public ICollection<ExemptVehicleType> ExemptVehicleTypes { get; set; } = new List<ExemptVehicleType>();
         public ICollection<TimeRangeTax> TimeRanges { get; set; } = new List<TimeRangeTax>();
         public ICollection<ExemptionDates> ExemptionDates { get; set; } = new List<ExemptionDates>();
-
+        #endregion
     }
 }
